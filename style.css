@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css?family=Kelly+Slab|Luckiest+Guy|Roboto+Slab");
+body {
+  font-family: 'Roboto Slab', serif;
+}
+
+body form {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+     -moz-box-orient: vertical;
+     -moz-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 400px;
+}
+
+body form input[type="number"] {
+  font-family: 'Roboto Slab', serif;
+  color: #666666;
+  -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+          border-radius: 5px;
+  margin-bottom: 20px;
+  border: 2px solid #C4C4C4;
+  font-size: 1em;
+  width: 300px;
+  padding: 5px 3%;
+}
+
+body form input[type="number"]:hover, body form input[type="number"]:focus {
+  border: 2px solid #6DC11A;
+}
+
+body form button, body form input[type="submit"] {
+  font-family: 'Roboto Slab', serif;
+  color: white;
+  -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+          border-radius: 5px;
+  border-bottom: 5px solid #2B8F16;
+  font-size: 1em;
+  width: 120px;
+  padding: 5px 0;
+  background-color: #6DC11A;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+body table {
+  border-collapse: collapse;
+}
+
+body table tr td {
+  border: 2px solid silver;
+  border-collapse: collapse;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  font-size: 1.5em;
+}
+/*# sourceMappingURL=style.css.map */

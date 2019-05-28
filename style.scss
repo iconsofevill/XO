@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Kelly+Slab|Luckiest+Guy|Roboto+Slab');
+body {
+    font-family: 'Roboto Slab', serif;
+    form {
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        input[type="number"] {
+            font-family: 'Roboto Slab', serif;
+            color: #666666;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            border: 2px solid #C4C4C4;
+            font-size: 1em;
+            width: 300px;
+            padding: 5px 3%;
+            &:hover, &:focus {
+                border: 2px solid #6DC11A;
+            }
+        }
+        button, input[type="submit"] {
+            font-family: 'Roboto Slab', serif;
+            color: white;
+            border-radius: 5px;
+            border-bottom: 5px solid #2B8F16;
+            font-size: 1em;
+            width: 120px;
+            padding: 5px 0;
+            background-color: #6DC11A;
+            margin-bottom: 20px;
+            cursor: pointer;
+        }
+    }
+    table {
+        border-collapse: collapse;
+        tr {
+            td {
+                border: 2px solid silver;
+                border-collapse: collapse;
+                height: 60px;
+                width: 60px;
+                text-align: center;
+                font-size: 1.5em;
+            }
+        }
+    }
+}
